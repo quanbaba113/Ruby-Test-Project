@@ -1,0 +1,26 @@
+{
+"identifier": 8536,
+"name": "HP Instant Ink 6Free 300pg NA Plan L0S98AN",
+"vendor": "Generic Retailer",
+"isCommercial": "false",
+"shipWelcomeKit": "false",
+"allowAllPrinterModels": "true",
+"offerType": "free",
+"hasTrialPeriod": true,
+"additionalPaymentRequired": false,
+"plans": [
+{
+"guid": "477937ed-51ce-464b-9d47-096aa1ceb67b",
+"sku": "gemini.product_instant_ink_300_pages_plan",
+"region": "US",
+"priceCents": 999,
+"currency": "USD",
+"pages": 300,
+"overageBlockPriceCents": 100,
+"overageBlockSize": 25,
+"description": "The 300 Page Plan",
+"isDefault": "true",
+"incentiveMonths": 6
+}
+]
+}

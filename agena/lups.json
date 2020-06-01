@@ -1,0 +1,40 @@
+{
+"identifier": 8243,
+"name": "HP Instant Ink US 15pg Flyer",
+"vendor": "HSN",
+"isCommercial": "false",
+"shipWelcomeKit": "true",
+"allowAllPrinterModels": "false",
+"offerType": "free",
+"hasTrialPeriod": false,
+"additionalPaymentRequired": false,
+"printerModels": [],
+"plans": [
+{
+"guid": "f73a53f8-c207-4fcd-8228-e265cf68d19f",
+"sku": "gemini.product_instant_ink_50_pages_plan",
+"region": "US",
+"priceCents": 299,
+"currency": "USD",
+"pages": 50,
+"overageBlockPriceCents": 100,
+"overageBlockSize": 15,
+"description": "The 50 Page Plan",
+"isDefault": "false",
+"incentiveMonths": 1
+},   
+{
+"guid": "916798cd-b10a-4570-9e0c-1174cfd8c8fa",
+"sku": "gemini.product_instant_ink_15_pages_99_plan",
+"region": "US",
+"priceCents": 99,
+"currency": "USD",
+"pages": 15,
+"overageBlockPriceCents": 100,
+"overageBlockSize": 10,
+"description": "My 15 (US$ 0.99) Page Plan",
+"isDefault": "false",
+"incentiveMonths": 1
+}
+]
+}

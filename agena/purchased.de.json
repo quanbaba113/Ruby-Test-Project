@@ -1,0 +1,52 @@
+{
+"identifier": 8314,
+"name": "HP Instant Ink 2Free MSH Any Pg Plan",
+"vendor": "MSH",
+"isCommercial": "false",
+"shipWelcomeKit": "true",
+"allowAllPrinterModels": "true",
+"offerType": "free",
+"hasTrialPeriod": false,
+"additionalPaymentRequired": false,
+"plans": [
+{
+"guid": "0716f65d-06e3-4c53-9120-8faffbbd9a6c",
+"sku": "de.gemini.product_instant_ink_50_pages_plan",
+"region": "DE",
+"priceCents": 299,
+"currency": "EUR",
+"pages": 50,
+"overageBlockPriceCents": 100,
+"overageBlockSize": 15,
+"description": "The 50 Page Plan",
+"isDefault": "false",
+"incentiveMonths": 2
+},
+{
+"guid": "7d09fb94-caaa-4795-b4d5-9b5f1796ade5",
+"sku": "de.gemini.product_instant_ink_100_pages_plan",
+"region": "DE",
+"priceCents": 499,
+"currency": "EUR",
+"pages": 100,
+"overageBlockPriceCents": 100,
+"overageBlockSize": 20,
+"description": "The 100 Page Plan",
+"isDefault": "true",
+"incentiveMonths": 2
+},
+{
+"guid": "ca0832ab-14d2-4dd5-967e-80ca55ea6d8d",
+"sku": "de.gemini.product_instant_ink_300_pages_plan",
+"region": "DE",
+"priceCents": 999,
+"currency": "EUR",
+"pages": 300,
+"overageBlockPriceCents": 100,
+"overageBlockSize": 25,
+"description": "The 300 Page Plan",
+"isDefault": "false",
+"incentiveMonths": 2
+}
+]
+}

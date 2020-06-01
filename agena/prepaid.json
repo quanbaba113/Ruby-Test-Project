@@ -1,0 +1,52 @@
+{
+    "identifier": 8177,
+    "name": "testbc_CA_14_pp",
+    "vendor": "Generic Retailer",
+    "isCommercial": "false",
+    "shipWelcomeKit": "true",
+    "allowAllPrinterModels": "true",
+    "offerType": "prepaid",
+    "hasTrialPeriod": false,
+    "prepaidAmount": 1400,
+    "currency": "CAD",
+    "isTaxPaid": false,
+    "additionalPaymentRequired": false,
+    "plans": [
+      {
+        "guid": "fa889a2b-662c-471b-a21a-8abf65bdc45c",
+        "sku": "ca.gemini.product_instant_ink_50_pages_plan",
+        "region": "CA",
+        "priceCents": 399,
+        "currency": "CAD",
+        "pages": 50,
+        "overageBlockPriceCents": 125,
+        "overageBlockSize": 15,
+        "description": "Instant Ink 50 pages plan",
+        "isDefault": "false"
+      },
+      {
+        "guid": "60e1a50f-a3b5-4020-a154-06dc5166d5b4",
+        "sku": "ca.gemini.product_instant_ink_100_pages_plan",
+        "region": "CA",
+        "priceCents": 599,
+        "currency": "CAD",
+        "pages": 100,
+        "overageBlockPriceCents": 125,
+        "overageBlockSize": 20,
+        "description": "Instant Ink 100 pages plan",
+        "isDefault": "true"
+      },
+      {
+        "guid": "3ee7b81f-1274-4abd-8401-03314ed45b58",
+        "sku": "ca.gemini.product_instant_ink_300_pages_plan",
+        "region": "CA",
+        "priceCents": 1099,
+        "currency": "CAD",
+        "pages": 300,
+        "overageBlockPriceCents": 125,
+        "overageBlockSize": 25,
+        "description": "Instant Ink 300 pages plan",
+        "isDefault": "false"
+      }
+    ]
+  }

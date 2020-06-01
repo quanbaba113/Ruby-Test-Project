@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/ruby/automated_tests/II_Auto/Rakefile</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/spec/spec_helper.rb</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/support/pageObjects/enrollThreeBillingUtil/enroll_three_billing.rb</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/support/pageObjects/landingUtil/landing.rb</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/spec/features/smoke_test/testBat.rb</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/support/pageObjects/enrollThreeShippingUtil/enroll_three_shipping_map.rb</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/support/pageObjects/enrollThreeBillingUtil/enroll_three_billing_map.rb</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/support/pageObjects/enrollFourReviewUtil/enroll_four_map.rb</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/support/pageObjects/ThankyouPageUtil/thankyou_map.rb</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/support/pageObjects/ISEPUtil/isep_map.rb</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/spec/features/smoke_test/smokeTest.rb</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/support/pageObjects/enrollOnePlanUtil/enroll_one.rb</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/support/pageObjects/signUpUtil/signup_map.rb</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/support/pageObjects/enrollTwoPrinterUtil/enroll_two.rb</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/support/pageObjects/signUpUtil/signup.rb</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/support/pageObjects/landingUtil/landing_map.rb</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/support/pageObjects/enrollFourReviewUtil/enroll_four.rb</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/support/pageObjects/enrollTwoPrinterUtil/enroll_two_map.rb</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/support/pageObjects/ThankyouPageUtil/thankyou.rb</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/support/pageObjects/enrollThreeShippingUtil/enroll_three_shipping.rb</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/support/pageObjects/enrollOnePlanUtil/enroll_one_map.rb</file>
+            <file>file:/E:/ruby/automated_tests/II_Auto/support/support.rb</file>
+        </group>
+    </open-files>
+</project-private>

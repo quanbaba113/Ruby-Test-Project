@@ -1,0 +1,26 @@
+{
+"identifier": 8264,
+"name": "HP Instant Ink 500 page Plan",
+"vendor": "Staples",
+"isCommercial": "false",
+"shipWelcomeKit": "true",
+"allowAllPrinterModels": "true",
+"offerType": "purchased",
+"hasTrialPeriod": false,
+"additionalPaymentRequired": false,
+"plans": [
+{
+"guid": "03ca853c-9ea5-4641-b422-fb4fc52eb6d9",
+"sku": "gemini.product_instant_ink_500_pages_plan",
+"region": "US",
+"priceCents": 1499,
+"currency": "USD",
+"pages": 500,
+"overageBlockPriceCents": 100,
+"overageBlockSize": 30,
+"description": "The 500 Page Plan",
+"isDefault": "true",
+"incentiveMonths": 1
+}
+]
+}

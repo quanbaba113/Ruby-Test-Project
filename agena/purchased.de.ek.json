@@ -1,0 +1,122 @@
+{
+"code": "BMMCKTMMMMMBFTP3",
+"offerNumber": 8314,
+"currency": "EUR",
+"region": "DE",
+"offerType": "free",
+"hasTrialPeriod": false,
+"amountPaidInCents": 299,
+"welcomeKit": true,
+"additionalPaymentRequired": false,
+"promo_code": {
+"id": 426,
+"name": "FREEINK",
+"code": "FREEINK",
+"activation_eligibility_days": null,
+"start_date": "2016-04-28 00:00:00 UTC",
+"end_date": "2016-12-31 00:00:00 UTC",
+"region": "DE",
+"valid_for_any_retailer": true,
+"retailers": [],
+"promo_plan_incentives": [
+{
+"unit": "Month",
+"amount": 1,
+"plan": "My 50 Page Plan"
+},
+{
+"unit": "Month",
+"amount": 1,
+"plan": "My 100 Page Plan"
+},
+{
+"unit": "Month",
+"amount": 1,
+"plan": "My 300 Page Plan"
+}
+]
+},
+"expirationDate": "",
+"plans": [
+{
+"guid": "0716f65d-06e3-4c53-9120-8faffbbd9a6c",
+"sku": "de.gemini.product_instant_ink_50_pages_plan",
+"incentiveMonths": 2,
+"isDefault": false
+},
+{
+"guid": "7d09fb94-caaa-4795-b4d5-9b5f1796ade5",
+"sku": "de.gemini.product_instant_ink_100_pages_plan",
+"incentiveMonths": 2,
+"isDefault": true
+},
+{
+"guid": "ca0832ab-14d2-4dd5-967e-80ca55ea6d8d",
+"sku": "de.gemini.product_instant_ink_300_pages_plan",
+"incentiveMonths": 2,
+"isDefault": false
+}
+],
+"default_plans": [
+{
+"guid": "0716f65d-06e3-4c53-9120-8faffbbd9a6c",
+"sku": "de.gemini.product_instant_ink_50_pages_plan",
+"price_cents": 299,
+"pages": 50,
+"overage_block_size": 15,
+"overage_block_price_cents": 100,
+"overage_block_sku": "de.gemini.product_overages_15_pages",
+"previous_cycle_overage_block_sku": "de.gemini.product_overages_15_pages_previous_billing_cycle",
+"currency": "EUR",
+"zero_dollar_sku": "gemini.product_no_charge",
+"one_cent_sku": "de.gemini.one_cent",
+"hundred_cent_sku": "de.gemini.one_hundred_cents",
+"tax_included": "true",
+"type": "consumer",
+"region": "DE"
+},
+{
+"guid": "7d09fb94-caaa-4795-b4d5-9b5f1796ade5",
+"sku": "de.gemini.product_instant_ink_100_pages_plan",
+"price_cents": 499,
+"pages": 100,
+"overage_block_size": 20,
+"overage_block_price_cents": 100,
+"overage_block_sku": "de.gemini.product_overages_20_pages",
+"previous_cycle_overage_block_sku": "de.gemini.product_overages_20_pages_previous_billing_cycle",
+"currency": "EUR",
+"zero_dollar_sku": "gemini.product_no_charge",
+"one_cent_sku": "de.gemini.one_cent",
+"hundred_cent_sku": "de.gemini.one_hundred_cents",
+"tax_included": "true",
+"type": "consumer",
+"region": "DE"
+},
+{
+"guid": "ca0832ab-14d2-4dd5-967e-80ca55ea6d8d",
+"sku": "de.gemini.product_instant_ink_300_pages_plan",
+"price_cents": 999,
+"pages": 300,
+"overage_block_size": 25,
+"overage_block_price_cents": 100,
+"overage_block_sku": "de.gemini.product_overages_25_pages",
+"previous_cycle_overage_block_sku": "de.gemini.product_overages_25_pages_previous_billing_cycle",
+"currency": "EUR",
+"zero_dollar_sku": "gemini.product_no_charge",
+"one_cent_sku": "de.gemini.one_cent",
+"hundred_cent_sku": "de.gemini.one_hundred_cents",
+"tax_included": "true",
+"type": "consumer",
+"region": "DE"
+}
+],
+"seqNum": 18,
+"state": "activated",
+"posTimestamp": "2016-09-07T17:24:46Z",
+"retailerId": "msh",
+"retailerName": "MSH",
+"storeLocation": "",
+"upc": "",
+"serialNumber": "",
+"origin": "customerSupport"
+}

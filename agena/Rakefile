@@ -1,0 +1,65 @@
+####### Environment Variables:
+#
+# -> Use AGENA_STACKS variable to run tests on a subset of stacks:
+#   Examples:
+#   (a) rake integration:agena_default_offers_gemini AGENA_STACKS=test1
+#   (b) rake integration:agena_default_offers_gemini AGENA_STACKS=test1,pie1
+#
+#
+# -> Use AGENA_CLEAR_LOGS variable to remove output.out before adding new lines
+#
+##
+namespace :integration do
+
+  desc 'Execute all features'
+  task :agena_all do|t,args|
+    exec 'bundle exec cucumber spec/features/ -r spec/features --guess -f pretty -f html --out output.html -f rerun --out rerun.txt AGENA_CLEAR_LOGS=yes AGENA_STACKS=test1,pie1,stage1 || cucumber @rerun.txt -r spec/features --guess -f html --out output.rerun.html'
+  end
+
+  desc 'Execute all ready features'
+  task :agena_ready do|t,args|
+    exec 'bundle exec cucumber spec/features/ -r spec/features --tags @ready --guess -f pretty -f html --out output.html -f rerun --out rerun.txt AGENA_CLEAR_LOGS=yes AGENA_STACKS=test1,pie1,stage1 || cucumber @rerun.txt -r spec/features --guess -f html --out output.rerun.html'
+  end
+
+  desc 'Execute all ToDo features'
+  task :agena_todo do|t,args|
+    exec 'bundle exec cucumber spec/features/ -r spec/features --tags @todo --guess -f pretty -f html --out output.html -f rerun --out rerun.txt AGENA_CLEAR_LOGS=yes AGENA_STACKS=test1,pie1,stage1 || cucumber @rerun.txt -r spec/features --guess -f html --out output.rerun.html'
+  end
+
+  desc 'Execute default offers features'
+  task :agena_default_offers_gemini do |t,args|
+    exec 'bundle exec cucumber spec/features/ -r spec/features --guess --tags @ui_gemini --tags @default_offers -f pretty -f html --out output.html -f rerun --out rerun.txt AGENA_CLEAR_LOGS=yes || cucumber @rerun.txt -r spec/features --guess -f html --out output.rerun.html'
+  end
+
+  desc 'Execute all V2 to V3 examples'
+  task :agena_v3_examples do|t,args|
+    exec 'bundle exec cucumber spec/features/acceptance_tests/v3_offers_structure.feature -r spec/features --guess --tags @v3_stuff_ok -f html -o v3_examples.html -f pretty'
+  end
+
+end
+
+desc 'Execute tests to validate a new offer'
+task :offer_validation do
+  ARGV.each { |a| task a.to_sym do ; end }
+  puts "Calling: rake new_offer_validation \"<offer_name>\" \"<stack>\" \"<optional tag>\""
+  ENV['new offer name'] = ARGV[1]
+  ENV['environment'] = ARGV[2]
+  tag = "new_offer"
+  if ARGV.length >= 4
+    tag = ARGV[3]
+  end
+  exec 'bundle exec cucumber spec/features/acceptance_tests/new_offer_validation.feature -r spec/features --guess --tags @' + tag + ' -f html -o new_offer.html -f pretty'
+end
+
+desc 'Execute tests to validate a new offer'
+task :ek_offer_validation do
+  ARGV.each { |a| task a.to_sym do ; end }
+  puts "Calling: rake ek_offer_validation \"<enrollment_key>\" \"<stack>\" \"<optional tag>\""
+  ENV['eks'] = ARGV[1]
+  ENV['environment'] = ARGV[2]
+  tag = "new_offer"
+  if ARGV.length >= 4
+    tag = ARGV[3]
+  end
+  exec 'bundle exec cucumber spec/features/acceptance_tests/new_offer_validation.feature -r spec/features --guess --tags @' + tag + ' -f html -o new_offer.html -f pretty'
+end

@@ -1,0 +1,3 @@
+integration\:basic[browser,stack]=Execute basic intergration tests suite.
+integration\:smoke_r[browser,stack,claim_code]=
+integration\:smoke_v[browser,stack]=

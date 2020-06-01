@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+gem "cucumber"
+gem "capybara"
+gem "rspec-expectations"
+gem "selenium-webdriver", '2.53.4'
+gem "chromedriver-helper"
+gem "rake"
+gem "rspec"
+gem 'faraday'
+gem 'byebug'
+gem 'nokogiri'

@@ -1,0 +1,95 @@
+{
+  "code": "CMM4SDMMMMKX9XPC",
+  "offerNumber": 8177,
+  "currency": "CAD",
+  "region": "CA",
+  "offerType": "prepaid",
+  "hasTrialPeriod": false,
+  "amountPaidInCents": 1400,
+  "welcomeKit": true,
+  "additionalPaymentRequired": false,
+  "isTaxPaid": false,
+  "expirationDate": "",
+  "plans": [
+    {
+      "guid": "fa889a2b-662c-471b-a21a-8abf65bdc45c",
+      "sku": "ca.gemini.product_instant_ink_50_pages_plan",
+      "incentiveMonths": 0,
+      "isDefault": false
+    },
+    {
+      "guid": "60e1a50f-a3b5-4020-a154-06dc5166d5b4",
+      "sku": "ca.gemini.product_instant_ink_100_pages_plan",
+      "incentiveMonths": 0,
+      "isDefault": true
+    },
+    {
+      "guid": "3ee7b81f-1274-4abd-8401-03314ed45b58",
+      "sku": "ca.gemini.product_instant_ink_300_pages_plan",
+      "incentiveMonths": 0,
+      "isDefault": false
+    }
+  ],
+  "default_plans": [
+    {
+      "guid": "fa889a2b-662c-471b-a21a-8abf65bdc45c",
+      "sku": "ca.gemini.product_instant_ink_50_pages_plan",
+      "price_cents": 399,
+      "pages": 50,
+      "overage_block_size": 15,
+      "overage_block_price_cents": 125,
+      "overage_block_sku": "ca.gemini.product_overages_15_pages",
+      "previous_cycle_overage_block_sku": "ca.gemini.product_overages_15_pages_previous_billing_cycle",
+      "currency": "CAD",
+      "zero_dollar_sku": "gemini.product_no_charge",
+      "one_cent_sku": "ca.gemini.one_cent",
+      "hundred_cent_sku": "ca.gemini.one_hundred_cents",
+      "tax_included": "false",
+      "type": "consumer",
+      "region": "CA"
+    },
+    {
+      "guid": "60e1a50f-a3b5-4020-a154-06dc5166d5b4",
+      "sku": "ca.gemini.product_instant_ink_100_pages_plan",
+      "price_cents": 599,
+      "pages": 100,
+      "overage_block_size": 20,
+      "overage_block_price_cents": 125,
+      "overage_block_sku": "ca.gemini.product_overages_20_pages",
+      "previous_cycle_overage_block_sku": "ca.gemini.product_overages_20_pages_previous_billing_cycle",
+      "currency": "CAD",
+      "zero_dollar_sku": "gemini.product_no_charge",
+      "one_cent_sku": "ca.gemini.one_cent",
+      "hundred_cent_sku": "ca.gemini.one_hundred_cents",
+      "tax_included": "false",
+      "type": "consumer",
+      "region": "CA"
+    },
+    {
+      "guid": "3ee7b81f-1274-4abd-8401-03314ed45b58",
+      "sku": "ca.gemini.product_instant_ink_300_pages_plan",
+      "price_cents": 1099,
+      "pages": 300,
+      "overage_block_size": 25,
+      "overage_block_price_cents": 125,
+      "overage_block_sku": "ca.gemini.product_overages_25_pages",
+      "previous_cycle_overage_block_sku": "ca.gemini.product_overages_25_pages_previous_billing_cycle",
+      "currency": "CAD",
+      "zero_dollar_sku": "gemini.product_no_charge",
+      "one_cent_sku": "ca.gemini.one_cent",
+      "hundred_cent_sku": "ca.gemini.one_hundred_cents",
+      "tax_included": "false",
+      "type": "consumer",
+      "region": "CA"
+    }
+  ],
+  "seqNum": 76,
+  "state": "activated",
+  "posTimestamp": "2016-09-07T20:55:11Z",
+  "retailerId": "generic",
+  "retailerName": "Generic Retailer",
+  "storeLocation": "",
+  "upc": "",
+  "serialNumber": "",
+  "origin": "customerSupport"
+}

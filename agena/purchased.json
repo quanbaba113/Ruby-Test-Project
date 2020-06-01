@@ -1,0 +1,25 @@
+{"identifier": 8565,
+"name": "HP Instant Ink 50pg AMZ Plan",
+"vendor": "AMAZON",
+"isCommercial": "false",
+"shipWelcomeKit": "true",
+"allowAllPrinterModels": "true",
+"offerType": "purchased",
+"hasTrialPeriod": false,
+"additionalPaymentRequired": false,
+"plans": [
+{
+"guid": "f73a53f8-c207-4fcd-8228-e265cf68d19f",
+"sku": "gemini.product_instant_ink_50_pages_plan",
+"region": "US",
+"priceCents": 299,
+"currency": "USD",
+"pages": 50,
+"overageBlockPriceCents": 100,
+"overageBlockSize": 15,
+"description": "The 50 Page Plan",
+"isDefault": "true",
+"incentiveMonths": 2
+}
+]
+}

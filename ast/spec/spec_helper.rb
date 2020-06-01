@@ -1,0 +1,39 @@
+require 'pry-byebug'
+require 'rspec'
+require 'capybara'
+require 'capybara/rspec'
+require 'capybara/dsl'
+require 'capybara-webkit'
+require 'selenium'
+require 'selenium-webdriver'
+require 'capybara/webkit/matchers'
+
+Dir[ File.dirname(__FILE__) + '/support/**/*.rb'].each do |file|
+  require file
+end
+
+RSpec.configure do |config|
+  config.include Capybara::DSL
+  config.include Capybara::RSpecMatchers
+  config.include Environment
+  config.include Features
+  config.include Features::UserActionsHelpers
+  config.include Features::IntegrationActionsHelpers
+
+  config.expect_with :rspec do |expectations|
+    expectations.include_chain_clauses_in_custom_matcher_descriptions = true
+  end
+
+  config.mock_with :rspec do |mocks|
+    mocks.verify_partial_doubles = true
+  end
+end
+
+AST::Suite.configure do |config|
+  config.browser = ENV['AST_BROWSER_TYPE']
+  config.stack   = ENV['AST_STACK']
+  config.role    = ENV['AST_TEST_ROLE']
+  config.host    = ENV['APP_HOST']
+  Capybara.javascript_driver = ENV['AST_BROWSER_TYPE'] == ENV['AST_DEFAULT_BROWSER'] ? :webkit : :selenium
+end
+
