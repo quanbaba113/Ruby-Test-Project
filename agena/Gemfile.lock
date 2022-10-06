@@ -1,7 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.4.0)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     archive-zip (0.7.0)
       io-like (~> 0.3.0)
     builder (3.2.2)
@@ -46,6 +47,7 @@ GEM
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
     pkg-config (1.1.7)
+    public_suffix (5.0.0)
     rack (2.0.1)
     rack-test (0.6.3)
       rack (>= 1.0)
